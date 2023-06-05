@@ -1,0 +1,50 @@
+SAIKRISHNA_LTTS_CHALLENGE_1
+Data Packet Corruption Detection
+
+-> In a Wireless communciation device, multiple data packets are transferred over the air.
+-> It is possible that data might get corrupted or lost before it reaches the destination.
+-> Create a method to identify if a data packet is corrupted
+  Assume below format for the data packet
+#define MAX_PACKET_DATA_LENGTH (50)
+typedef struct data_packet_t{
+    uint8_t id;
+    uint8_t data_length;
+    uint8_t data[MAX_PACKET_DATA_LENGTH];
+    uint16_t crc;
+   }data_packet_t;
+------------------------------------------------------------------------------------------------------------------------------------------
+
+ SAIKRISHNA_CHALLENEGE_1
+
+#include <stdint.h>
+#include <stdbool.h>
+
+#define MAX_PACKET_DATA_LENGTH (50)
+
+typedef struct data_packet_t {
+    uint8_t id;
+    uint8_t data_length;
+    uint8_t data[MAX_PACKET_DATA_LENGTH];
+    uint16_t crc;
+} data_packet_t;
+
+
+uint16_t calculateCRC(const data_packet_t* packet) {
+    uint16_t crc = 0;
+
+    
+    for (int i = 0; i < packet->data_length; i++) {
+        crc += packet->data[i];
+        crc = (crc >> 1) | (crc << 15);  
+    }
+
+    return crc;
+}
+
+
+bool isPacketCorrupted(const data_packet_t* packet) {
+    
+    uint16_t calculatedCRC = calculateCRC(packet);
+
+    return calculatedCRC != packet->crc;
+}
