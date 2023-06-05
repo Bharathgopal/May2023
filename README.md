@@ -10,3 +10,4 @@ Do you have good programming skills?
 - Create a Pull request by adding a link to your Solution from this page.
 
 ### [Challenge-1](challenge-1.md)
+Divyam submission: https://github.com/DivyamGumber/challenges-ltts/blob/main/challenge-1-solution.c
