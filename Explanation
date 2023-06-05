@@ -1,0 +1,76 @@
+#include <stdio.h>
+#include <stdint.h>
+
+#define MAX_PACKET_DATA_LENGTH (50)
+
+typedef struct data_packet_t {
+    uint8_t id;
+    uint8_t data_length;
+    uint8_t data[MAX_PACKET_DATA_LENGTH];
+    uint16_t crc;
+} data_packet_t;
+
+`````
+The above code segment includes necessary header files (stdio.h and stdint.h) and defines the maximum length of the data array in the data packet structure.
+The data_packet_t structure represents the format of a data packet, which consists of an ID, data length, data array, and a CRC field.
+
+`````
+
+uint16_t calculateCRC(const uint8_t* data, size_t length) {
+    uint16_t crc = 0xFFFF;  // Initialize CRC value to 0xFFFF
+
+    for (size_t i = 0; i < length; ++i) {
+        crc ^= (uint16_t)data[i];  // XOR with the current byte
+
+        for (int j = 0; j < 8; ++j) {
+            if (crc & 0x0001) {
+                crc >>= 1;
+                crc ^= 0xA001;  // XOR with the CRC polynomial (0xA001 for CRC-16)
+            } else {
+                crc >>= 1;
+            }
+        }
+    }
+
+    return crc;
+}
+
+````````
+The calculate CRC function takes a pointer to the data array and the length of the data as input.
+It calculates the CRC checksum using the CRC-16 algorithm.
+The algorithm iterates through each byte of the data array and performs a series of bitwise XOR and shift operations to update the CRC value. 
+The CRC value is initialized to 0xFFFF. For each byte, it is XORed with the current CRC value, and then eight iterations are performed to process each bit of the byte.
+If the least significant bit of the CRC is set (equal to 1), the CRC is right-shifted by 1 and XORed with the CRC polynomial (0xA001 for CRC-16). 
+If the least significant bit of the CRC is not set (equal to 0), the CRC is only right-shifted by 1.
+After processing all bytes, the final CRC value represents the calculated checksum, which is returned by the function.
+
+`````
+
+int main() {
+    // Sample data packet
+    data_packet_t packet = {
+        .id = 1,
+        .data_length = 6,
+        .data = {0x12, 0x34, 0x56, 0x78, 0x9A, 0xBC},
+        .crc = 0x5F4A  // Example CRC value
+    };
+
+
+    // Calculate the CRC checksum
+    uint16_t calculatedCRC = calculateCRC((uint8_t*)&packet, sizeof(packet) - sizeof(packet.crc));
+
+    // Compare calculated CRC with the packet's CRC
+    if (calculatedCRC == packet.crc) {
+        printf("Data packet is not corrupted.\n");
+    } else {
+        printf("Data packet is corrupted.\n");
+    }
+
+    return 0;
+}
+
+```````
+
+In the main function, a sample data packet is created using the data_packet_t structure.
+The packet has an ID of 1, a data length of 6, and data array with some example values (0x12, 0x34, 0x56, 0x78, 0x9A, 0xBC). 
+The packet also contains an example CRC value (0x5F4A) for demonstration purposes.
