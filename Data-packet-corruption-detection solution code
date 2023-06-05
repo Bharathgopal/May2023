@@ -1,0 +1,57 @@
+#include <stdio.h>
+#include <stdint.h>
+
+#define MAX_PACKET_DATA_LENGTH (50)
+
+typedef struct data_packet_t {
+    uint8_t id;
+    uint8_t data_length;
+    uint8_t data[MAX_PACKET_DATA_LENGTH];
+    uint16_t crc;
+} data_packet_t;
+
+// implementation of CRC algorithm 
+
+uint16_t calculateCRC(const uint8_t* data, size_t length) {
+    uint16_t crc = 0xFFFF;  // Initialize CRC value to 0xFFFF
+
+    for (size_t i = 0; i < length; ++i) {
+        crc ^= (uint16_t)data[i];  // XOR with the current byte
+
+        for (int j = 0; j < 8; ++j) {
+            if (crc & 0x0001) {
+                crc >>= 1;
+                crc ^= 0xA001;  // XOR with the CRC polynomial (0xA001 for CRC-16)
+            } else {
+                crc >>= 1;
+            }
+        }
+    }
+
+    return crc;
+}
+
+int main() {
+    // Sample data packet
+    
+    data_packet_t packet = {
+        .id = 1,
+        .data_length = 6,
+        .data = {0x12, 0x34, 0x56, 0x78, 0x9A, 0xBC},
+        .crc = 0x5F4A  // Example CRC value
+    };
+
+    // Calculate the CRC checksum
+    
+    uint16_t calculatedCRC = calculateCRC((uint8_t*)&packet, sizeof(packet) - sizeof(packet.crc));
+
+    // Compare calculated CRC with the packet's CRC
+    
+    if (calculatedCRC == packet.crc) {
+        printf("Data packet is not corrupted.\n");
+    } else {
+        printf("Data packet is corrupted.\n");
+    }
+
+    return 0;
+}
