@@ -1,0 +1,57 @@
+#include <stdint.h>
+
+#define MAX_PACKET_DATA_LENGTH (50)
+
+typedef struct data_packet_t {
+    uint8_t id;
+    uint8_t data_length;
+    uint8_t data[MAX_PACKET_DATA_LENGTH];
+    uint16_t crc;
+} data_packet_t;
+
+// Calculate the CRC-16 checksum
+uint16_t calculate_crc16(const uint8_t *data, uint8_t length) {
+    uint16_t crc = 0xFFFF;
+    
+    while (length--) {
+        crc ^= (*data++ << 8);
+        
+        for (uint8_t i = 0; i < 8; ++i) {
+            if (crc & 0x8000)
+                crc = (crc << 1) ^ 0x1021;  // CRC-16 CCITT polynomial: x^16 + x^12 + x^5 + 1
+            else
+                crc <<= 1;
+        }
+    }
+    
+    return crc;
+}
+
+// Check if the data packet is corrupted
+int is_packet_corrupted(const data_packet_t *packet) {
+    // Calculate the CRC-16 checksum for the packet data
+    uint16_t calculated_crc = calculate_crc16(packet->data, packet->data_length);
+    
+    // Compare the calculated CRC with the packet's CRC field
+    return (calculated_crc != packet->crc);
+}
+
+int main() {
+    // Example usage
+    data_packet_t packet = {
+        .id = 1,
+        .data_length = 5,
+        .data = {0x11, 0x22, 0x33, 0x44, 0x55},
+        .crc = 0x0000  // Replace with the actual CRC value
+    };
+    
+    // Check for corruption
+    int is_corrupted = is_packet_corrupted(&packet);
+    
+    if (is_corrupted)
+        printf("Packet is corrupted.\n");
+    else
+        printf("Packet is not corrupted.\n");
+    
+    return 0;
+}
