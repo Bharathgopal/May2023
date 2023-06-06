@@ -69,7 +69,7 @@ int main() {
     corruptedPacket.data[3] = 0x78;
     corruptedPacket.crc = calculateCRC(corruptedPacket.data, corruptedPacket.data_length);
 
-    // Introduce corruption by modifying one data byte
+   
     corruptedPacket.data[2] = 0xAB;
 
     isCorrupted = isPacketCorrupted(&corruptedPacket);
