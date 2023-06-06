@@ -13,7 +13,7 @@ typedef struct data_packet_t {
 // Function to Calculate CRC
 
 uint16_t calculateCRC(const uint8_t* data, uint8_t length) {
-    uint16_t crc = 0xFFFF;  // Initial value for CRC16
+    uint16_t crc = 0xFFFF;  // Initial value for CRC
 
     while (length--) {
         crc ^= *data++;  // This step will perform XOR opeartion with next data byte
@@ -52,17 +52,16 @@ int main() {
     data_packet_t packet;
     packet.id = 1;
     packet.data_length = 5;
-    packet.data[0] = 0x12;
+    packet.data[0] = 0x12;   //Hexa Decimal Number equal to 18 in Decimal
     packet.data[1] = 0x34;
     packet.data[2] = 0x56;
     packet.data[3] = 0x78;
     packet.data[4] = 0x90;
     packet.crc = calculateCRC(packet.data, packet.data_length);
-
     
     packet.data[2] = 0xAA;     /* if we comment this line we will get the output as Packet is not Corrupted
-		             if we want to check whether the code is working if we change the data we 
-                                                   can remove the comment and the output says the Packet is Corrupted */
+		             if we want to check whether the code is working if we change the data or the data is changed we 
+                                                   can remove the comment and the output says the Packet is Corrupted. */
 
 
     if (isPacketCorrupted(packet))
