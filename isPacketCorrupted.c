@@ -16,7 +16,7 @@ uint16_t calculateCRC(const uint8_t* data, uint8_t length) {
     uint16_t crc = 0xFFFF;  // Initial value for CRC
 
     while (length--) {
-        crc ^= *data++;  // This step will perform XOR opeartion with next data byte
+        crc ^= *data++;  // This step will perform XOR operation with next data byte
 
 /*By performing bitwise AND operation with '0x0001' we can extract the LSB from the CRC Value
 
@@ -35,7 +35,7 @@ place with the polynomial 0xA001, if the LSB is 0 then the CRC value is simply r
     return crc;
 }
 
-// Function to check if a data packet is corrupted
+// Function to check if a data packet is corrupted or not
 
 
 bool isPacketCorrupted(data_packet_t packet) {
