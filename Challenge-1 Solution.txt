@@ -1,0 +1,27 @@
+#include <stdint.h>
+
+#define MAX_PACKET_DATA_LENGTH (50)
+
+typedef struct data_packet_t {
+    uint8_t id;
+    uint8_t data_length;
+    uint8_t data[MAX_PACKET_DATA_LENGTH];
+    uint16_t checksum;
+} data_packet_t;
+
+uint16_t calculate_checksum(const uint8_t* data, size_t length) {
+    uint16_t sum1 = 0;
+    uint16_t sum2 = 0;
+
+    for (size_t i = 0; i < length; ++i) {
+        sum1 = (sum1 + data[i]) % 255;
+        sum2 = (sum2 + sum1) % 255;
+    }
+
+    return (sum2 << 8) | sum1;
+}
+
+int is_packet_corrupted(const data_packet_t* packet) {
+    uint16_t computed_checksum = calculate_checksum(packet->data, packet->data_length);
+    return (computed_checksum != packet->checksum);
+}
