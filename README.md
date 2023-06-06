@@ -10,3 +10,7 @@ Do you have good programming skills?
 - Create a Pull request by adding a link to your Solution from this page.
 
 ### [Challenge-1](challenge-1.md)
+* Solution by [Aditya Srivastava](solution1.c)
+
+### [Challenge-2](challenge-2.md)
+* Solution by [Aditya Srivastava](solution2.c)
