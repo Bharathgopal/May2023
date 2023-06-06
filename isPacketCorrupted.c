@@ -24,7 +24,7 @@ if the result is 1 the CRC value will be right shifted by 1 bit and then the XOR
 
 place with the polynomial 0xA001, if the LSB is 0 then the CRC value is simply right-shifted by 1 bit. */
 
-        for (int i = 0; i < 8; ++i) {
+        for (int i = 0; i < 8; i++) {
             if (crc & 0x0001)  
                 crc = (crc >> 1) ^ 0xA001;  
             else
