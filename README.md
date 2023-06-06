@@ -11,3 +11,6 @@ Do you have good programming skills?
 
 ### [Challenge-1](challenge-1.md)
 * Solution by [Your name] (Link to your solution)
+
+### [Challenge-2](challenge-2.md)
+* Solution by [Your name] (Link to your solution)
