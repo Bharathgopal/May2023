@@ -10,7 +10,7 @@ Do you have good programming skills?
 - Create a Pull request by adding a link to your Solution from this page.
 
 ### [Challenge-1](challenge-1.md)
-* Solution by [Your name] (Link to your solution)
+* Solution by Karthik Bhaskaran. Link: https://github.com/KarthikBhaskaran22/May2023/blob/main/Challenge%20-%201%20Solution_DataPacketCorruptionDetection.c
 
 ### [Challenge-2](challenge-2.md)
-* Solution by [Your name] (Link to your solution)
+* Solution by Karthik Bhaskaran. Link: https://github.com/KarthikBhaskaran22/May2023/blob/main/Challenge%20-%202%20Solution_DateStringtoStructureConversion.c
