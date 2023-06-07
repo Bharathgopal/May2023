@@ -13,4 +13,4 @@ Do you have good programming skills?
 * Solution by [SANJAY KUMAR M R](https://github.com/lethaldude10071/Detection-of-Data-packet-corruption)
 
 ### [Challenge-2](challenge-2.md)
-* Solution by [SANJAY KUMAR M R] (https://github.com/lethaldude10071/Date-in-String-to-Structure-conversion)
+* Solution by [SANJAY KUMAR M R](https://github.com/lethaldude10071/Date-in-String-to-Structure-conversion)
