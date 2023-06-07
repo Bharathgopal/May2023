@@ -1,0 +1,45 @@
+#include <stdio.h>
+#include <stdint.h>
+
+#define MAX_PACKET_DATA_LENGTH 50
+
+typedef struct {
+    uint8_t id;
+    uint8_t data_length;
+    uint8_t data[MAX_PACKET_DATA_LENGTH];
+    uint16_t crc;
+} data_packet_t;
+
+uint16_t calculate_crc16(const uint8_t *data, uint8_t length) {
+    uint16_t crc = 0xFFFF;
+
+    while (length--) {
+        crc ^= (*data++ << 8);
+
+        for (int i = 0; i < 8; ++i) {
+            crc = (crc & 0x8000) ? (crc << 1) ^ 0x1021 : crc << 1;
+        }
+    }
+
+    return crc;
+}
+
+int is_packet_corrupted(const data_packet_t *packet) {
+    uint16_t calculated_crc = calculate_crc16(packet->data, packet->data_length);
+    return (calculated_crc != packet->crc);
+}
+
+int main() {
+    data_packet_t packet = {
+        .id = 1,
+        .data_length = 5,
+        .data = {0x11, 0x22, 0x33, 0x44, 0x55},
+        .crc = 0x0000
+    };
+
+    int is_corrupted = is_packet_corrupted(&packet);
+
+    printf("Packet is %s.\n", is_corrupted ? "corrupted" : "not corrupted");
+
+    return 0;
+}
