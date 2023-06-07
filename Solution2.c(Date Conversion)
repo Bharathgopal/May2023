@@ -1,0 +1,57 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdint.h>
+
+typedef enum status_t {
+    SUCCESS,     
+    NULL_PTR,    
+    INCORRECT    
+} status_t;
+
+typedef struct my_date_t {
+    uint8_t date;
+    uint8_t month;
+    uint16_t year;
+} my_date_t;
+
+status_t a(char* input, my_date_t* result) {
+    if (input == NULL || result == NULL) {
+        return NULL_PTR;
+    }
+    
+    int date, month, year;
+    if (sscanf(input, "%d/%d/%d", &date, &month, &year) == 3) {
+        if (date < 1 || date > 31 || month < 1 || month > 12||year>9999) {
+            return INCORRECT;
+        }
+        
+        result->date = (uint8_t)date;
+        result->month = (uint8_t)month;
+        result->year = (uint16_t)year;
+        
+        return SUCCESS;
+    } else {
+        return INCORRECT;
+    }
+}
+
+int main() {
+    char date[11];  
+    printf("Enter the date in Prescribed format: ");
+    scanf("%s", date);
+    
+    my_date_t output;
+    status_t conversion = a(date, &output);
+    
+    if (conversion == SUCCESS) {
+        printf("Date: %d\n", output.date);
+        printf("Month: %d\n", output.month);
+        printf("Year: %d\n", output.year);
+    } else if (conversion == NULL_PTR) {
+        printf("NULL pointers provided\n");
+    } else if (conversion == INCORRECT) {
+        printf(" Incorrect date format\n");
+    }
+    
+    return 0;
+}
