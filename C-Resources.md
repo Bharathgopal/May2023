@@ -2,7 +2,6 @@
 
 ## Certification Courses 
 * [SoloLearn - Introduction to C](https://www.sololearn.com/learn/courses/c-introduction)
-* [Programiz - Become a C Master](https://programiz.pro/learn/master-c-programming)
 
 #### Additional Programming Skills Certificates
 * [HackerRank - Problem solving basics](https://www.hackerrank.com/skills-verification/problem_solving_basic)
