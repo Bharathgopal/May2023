@@ -40,3 +40,58 @@ typedef enum status_t
  */
 status_t string_to_date_converter(char* input_string, my_date_t* result_date);
 ```
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdint.h>
+
+typedef struct my_date_t {
+    uint8_t date;     
+    uint8_t month;      
+    uint16_t year;    
+} my_date_t;
+
+typedef enum status_t {
+    SUCCESS,    
+    NULL_PTR,   
+    INCORRECT   
+} status_t;
+
+status_t string_to_date_converter(char* input_string, my_date_t* result_date) {
+    if (input_string == NULL || result_date == NULL) {
+        return NULL_PTR;
+    }
+    int d, m, y;
+    if (sscanf(input_string, "%d/%d/%d", &d, &m, &y) != 3) {
+        return INCORRECT;
+    }
+    if (d < 1 || d > 31 || m < 1 || m > 12 || y < 0) {
+        return INCORRECT;
+    }
+
+    result_date->date = (uint8_t)d;
+    result_date->month = (uint8_t)m;
+    result_date->year = (uint16_t)y;
+
+    return SUCCESS;
+}
+
+int main() {
+    char date_string[] = "07/06/2023";
+    my_date_t result;
+
+    status_t status = string_to_date_converter(date_string, &result);
+
+    if (status == SUCCESS) {
+        printf("Conversion successful\n");
+        printf("Date: %d\n", result.date);
+        printf("Month: %d\n", result.month);
+        printf("Year: %d\n", result.year);
+    } else if (status == NULL_PTR) {
+        printf("Error: NULL pointers\n");
+    } else if (status == INCORRECT) {
+        printf("Error: Incorrect date format\n");
+    }
+
+    return 0;
+}
