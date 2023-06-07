@@ -1,4 +1,4 @@
-# Date String to Structure conversion
+/* # Date String to Structure conversion
 * In a application, the date is stored as a string and for computations, converting the string to number is required.
 * Write a function to convert the string formated date to a structure as per the below code
 * Return appropriate error values if the conversion is not successful
@@ -39,7 +39,7 @@ typedef enum status_t
  * @return status_t SUCCESS if conversion is done, status_t code otherwise.
  */
 status_t string_to_date_converter(char* input_string, my_date_t* result_date);
-```
+```  */
 __________________________________________________________________________________________________________________________________
 CODE
 
