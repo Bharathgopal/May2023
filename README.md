@@ -13,4 +13,4 @@ Do you have good programming skills?
 * Solution by [Sahil Sah] (https://github.com/sahi-dev/c-program/blob/master/Challenge-1.c)
 
 ### [Challenge-2](challenge-2.md)
-* Solution by [Your name] (Link to your solution)
+* Solution by [Sahil Sah] (https://github.com/sahi-dev/c-program/blob/master/Challenge-2.c)
