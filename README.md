@@ -13,4 +13,4 @@ Do you have good programming skills?
 * Solution by [Your name] (Link to your solution)
 
 ### [Challenge-2](challenge-2.md)
-* Solution by [Varun Tandel] (https://github.com/varunx11/challenge2soln)
+* Solution by [Varun Tandel] ( https://github.com/varunx11/challenge2soln )
