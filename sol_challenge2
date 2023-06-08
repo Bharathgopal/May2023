@@ -1,0 +1,49 @@
+//challenge 2
+#include <stdio.h>
+#include <string.h>
+struct s1{
+    int day;
+    int month;
+    int year;
+}struct1;
+int strtoint(char* day,char*month,char*year){
+    int d ,m,y;
+    d=atoi(day);
+    m=atoi(month);
+    y=atoi(year);
+    if ((d<=31) && (m<=12) && (y>0000)){
+        struct1.day=d;
+        struct1.month=m;
+        struct1.year=y;
+        printf("SUCCESS");
+    }
+    else{
+        printf("INCORRECT VALUES");
+    }
+}
+int main() {
+    char arr[]="31/12/2023";
+    char day[3],month[3],year[5];
+    int i=0,j=0,k=0;
+    for (;i<2;i++){
+        day[i]=arr[i];
+    }
+    day[i]='\0';
+    for (i=0;i<=4;i++){
+        if (i>2){
+            month[j]=arr[i];
+            j++;
+        }
+    }
+    month[j]='\0';
+    for (i=0;i<10;i++){
+        if (i>5){
+            year[k]=arr[i];
+            k++;
+        }
+    }
+    year[k]='\0';
+    //printf("%s\n%s\n%s\n",day,month,year);
+    strtoint(day,month,year);
+    return 0;
+}
