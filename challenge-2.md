@@ -1,7 +1,6 @@
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
-
 typedef struct my_date_t {
     uint8_t date;
     uint8_t month;
