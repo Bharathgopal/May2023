@@ -13,4 +13,4 @@ Do you have good programming skills?
 * Solution by [Your name] (Link to your solution)
 
 ### [Challenge-2](challenge-2.md)
-* Solution by [Your name] (Link to your solution)
+* Solution by Gautam Prasad Das (https://github.com/GautamPrasadDas/May2023/blob/main/Challenge2.c)
