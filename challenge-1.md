@@ -1,6 +1,5 @@
 # Data Packet Corruption Detection
 #include <stdint.h>
-
 #define MAX_PACKET_DATA_LENGTH (50)
 
 typedef struct data_packet_t {
