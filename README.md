@@ -13,4 +13,4 @@ Do you have good programming skills?
 * Solution by [KarthikBhaskaran22] (https://github.com/KarthikBhaskaran22/C_Projects/blob/main/Challenge1_Solution.c)
 
 ### [Challenge-2](challenge-2.md)
-* Solution by [KarthikBhaskaran22] (https://github.com/KarthikBhaskaran22/C_Projects/blob/main/Challenge2_Solution.c)
+* Solution by [KarthikBhaskaran22] (https://github.com/KarthikBhaskaran22/C_Projects/blob/main/Challenge2_Solution.c) 
