@@ -9,8 +9,6 @@ Do you have good programming skills?
 - Solve the challenge and upload to your own repository.
 - Create a Pull request by adding a link to your Solution from this page.
 
-### [Challenge-1](challenge-1.md)
-* Solution by [Your name] (Link to your solution)
 
 ### [Challenge-2](challenge-2.md)
-* Solution by [Your name] (Link to your solution)
+* Solution by [Abhisek Panigrahi] (Link to your solution)
