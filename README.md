@@ -10,7 +10,9 @@ Do you have good programming skills?
 - Create a Pull request by adding a link to your Solution from this page.
 
 ### [Challenge-1](challenge-1.md)
+* solution by [Arnab Parmanik](https://github.com/arnabpramanik2001/challenge/blob/main/challenge_1.cpp)
 
 
 ### [Challenge-2](challenge-2.md)
+* solution by [Arnab Parmanik](https://github.com/arnabpramanik2001/challenge/blob/main/challenge_2.cpp)
 
