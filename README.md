@@ -10,7 +10,7 @@ Do you have good programming skills?
 - Create a Pull request by adding a link to your Solution from this page.
 
 ### [Challenge-1](challenge-1.md)
-* Solution by [Your name] (Link to your solution)
+* Solution by [Adusumalli Sujitha] (https://github.com/adusumalliSujitha12/may-challenge1/tree/97d98169b72ceb17ad38554cdff7937c248ed9a9)
 
 ### [Challenge-2](challenge-2.md)
-* Solution by [Your name] (Link to your solution)
+* Solution by [Adusumalli Sujitha] (https://github.com/adusumalliSujitha12/challenge2/tree/c532d53216e9f36dc34568467d65234818d2f06f)
