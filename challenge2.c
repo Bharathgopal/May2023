@@ -1,3 +1,9 @@
+/*Date String to Structure conversion
+In a application, the date is stored as a string and for computations, converting the string to number is required.
+Write a function to convert the string formated date to a structure as per the below code
+Return appropriate error values if the conversion is not successful*/
+
+
 #include <stdio.h>
 #include <stdint.h>
 
