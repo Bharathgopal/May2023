@@ -11,3 +11,5 @@ Do you have good programming skills?
 
 ### [Challenge-1](challenge-1.md)
 Solution by [S Ganesh] (https://github.com/SGanesh143/Challenge-1/blob/main/Challenge-1-Solution.c)
+### [Challenge-2](challenge-2.md)
+Solution by [S Ganesh] (https://github.com/SGanesh143/Challenge-1/blob/main/Challenge-2-Solution.c)
