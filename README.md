@@ -10,7 +10,7 @@ Do you have good programming skills?
 - Create a Pull request by adding a link to your Solution from this page.
 
 ### [Challenge-1](challenge-1.md)
-* Solution by [Your name] (Link to your solution)
+* Solution by [Krishna Kumar C] (https://github.com/Krishna-0713/Krishna_Challenge-1/blob/main/Challenge-1%20Solution)
 
 ### [Challenge-2](challenge-2.md)
-* Solution by [Your name] (Link to your solution)
+* Solution by [Krishna Kumar C] (https://github.com/Krishna-0713/Krishna_Challenge-1/blob/main/Challenge-2%20Solution)
