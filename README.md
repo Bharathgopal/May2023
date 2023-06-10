@@ -10,7 +10,7 @@ Do you have good programming skills?
 - Create a Pull request by adding a link to your Solution from this page.
 
 ### [Challenge-1](challenge-1.md)
-* Solution by [Your Name](Link to your Solution)
+* Solution by [Prasana.R](https://github.com/Theanonymous-hub/C_Challenges/blob/main/Crc.c)
 
 ### [Challenge-2](challenge-2.md)
-* Solution by [Your Name](Link to your solution)
+* Solution by [Prasana.R](https://github.com/Theanonymous-hub/C_Challenges/blob/main/Challenge2.c))
