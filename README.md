@@ -13,4 +13,4 @@ Do you have good programming skills?
 * Solution by [santhoshkumar N] (https://github.com/useramn/ltts/blob/main/challenge1solution)
 
 ### [Challenge-2](challenge-2.md)
-* Solution by [Your name] (Link to your solution)
+* Solution by [Santhosh Kumar N] (https://github.com/useramn/ltts/blob/main/challenge%202-solution)
