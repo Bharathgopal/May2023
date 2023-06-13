@@ -1,42 +1,46 @@
-# Date String to Structure conversion
-* In a application, the date is stored as a string and for computations, converting the string to number is required.
-* Write a function to convert the string formated date to a structure as per the below code
-* Return appropriate error values if the conversion is not successful
-
-## Inptu string format
-```
-    DD/MM/YYYY
-```
-
-## Output Structure format
-```
-typedef struct my_date_t
-{
-    uint8_t date;       /*<<< date */
-    uint8_t month;      /*<<< month */
-    uint16_t year;      /*<<< year   */
+#include<stdio.h>
+#include<stdlib.h>
+#include<stdint.h>
+typedef struct my_date_t{
+	uint8_t date;  /*< date */
+	uint8_t month; /*< month */
+	uint16_t year; /*< year */
 }my_date_t;
-```
-
-### Conversion status 
-```
-typedef enum status_t
-{
-    SUCCESS,                    /**< Function has successfully converted the string to structure */
-    NULL_PTR,                   /**< Function is given NULL pointers to work with */
-    INCORRECT                   /**< Incorrect values for date or month or year */
+typedef enum status_t{
+	SUCCESS,    /*< Function has successfully converted the string to structure */
+    NULL_PTR,   /*< Function is given NULL pointers to work with */
+    INCORRECT   /*< Incorrect values for date or month or year */
 }status_t;
+status_t string_to_date_converter(char* input_string,my_date_t* dateStruct){
+	if(input_string==NULL||dateStruct==NULL){
+		return NULL_PTR;
+	}
 
-```
+	int dd,mm,yyyy;
+	if(sscanf(input_string,"%d/%d/%d",&dd,&mm,&yyyy)!=3){
+		return INCORRECT;
+	}
+	if(dd<1||dd>31||mm<1||mm>12||yyyy<0){
+		return INCORRECT;
+	}
 
-### Function prototype
-```
-/**
- * @brief Function to convert string of the format DD/MM/YYYY to my_date_t structure
- * 
- * @param input_string String which needs to be converted
- * @param result_time Resultant structure to hold the converted string
- * @return status_t SUCCESS if conversion is done, status_t code otherwise.
- */
-status_t string_to_date_converter(char* input_string, my_date_t* result_date);
-```
+	dateStruct->date = (uint8_t)dd;
+    dateStruct->month = (uint8_t)mm;
+    dateStruct->year = (uint16_t)yyyy;
+	return SUCCESS;
+}
+int main(){
+	my_date_t date;
+	char str[12];
+	printf("Enter the date in format(DD/MM/YYYY):");
+	scanf("%s",str);
+	status_t result=string_to_date_converter(str,&date);
+	if(result==SUCCESS){
+	printf("Function has successfully converted the string to structure");
+	}else if(result==NULL_PTR){
+	printf("Function is given NULL pointers to work with");
+	}else if(result==INCORRECT){
+	printf("Incorrect values for date or month or year");
+	}
+	return 0;
+}
