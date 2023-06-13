@@ -15,8 +15,6 @@ typedef struct data_packet_t{
 }data_packet_t;
 
 ```
-
-
 #include <stdio.h>
 #include <stdint.h>
 #include <stdbool.h>
