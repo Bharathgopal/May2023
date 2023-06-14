@@ -1,9 +1,6 @@
 #include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
-
-
-
 #define MAX_PACKET_DATA_LENGTH (50)
 
 typedef struct data_packet_t {
@@ -45,5 +42,5 @@ int is_packet_corrupted(const data_packet_t* packet) {
         // CRC does not match, packet is corrupted
         return 1;
     }
-}
+  }
 }
