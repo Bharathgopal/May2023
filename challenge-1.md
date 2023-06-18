@@ -14,6 +14,19 @@ typedef struct data_packet_t{
     uint16_t crc;
 }data_packet_t;
 
-```
+unit16_t calculate_crc(const data_packet_t* packet)
+{
+    * CRC calculation algorithm goes here
+    * It should operate on the entire data packet except for the crc field
+    * Return the calculated CRC
+}
+
+int is_packet_currupted(const data_packet_t* packet)
+{
+unit_t calculated_crc = calculate_crc(packet);
+return (calculated_crc != packet->crc);
+}
+
+
 # FAQ's
 * Links to Discussions
