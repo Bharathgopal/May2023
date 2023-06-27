@@ -14,5 +14,9 @@ Do you have good programming skills?
 
 ### [Challenge-2](challenge-2.md)
 * Solution by [Your name] (Link to your solution)
+
 * ---------------------------------------------------------------------------------------------------------------
-https://github.com/AnjaneyuluDevarasetty/Learning_2023/blob/main/Challenge2.c
+Anjaneyulu Devarasetty [https://github.com/AnjaneyuluDevarasetty/Learning_2023/blob/main/Challenge2.c
+
+
+
