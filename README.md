@@ -14,3 +14,7 @@ Do you have good programming skills?
 
 ### [Challenge-2](challenge-2.md)
 * Solution by [Your name] (Link to your solution)
+
+### [Challenge-3](challenge-3/challenge-3.md)
+* Connected project 
+* More related challenges will follow
