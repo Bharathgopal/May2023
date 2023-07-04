@@ -9,7 +9,11 @@ Do you have good programming skills?
 - Solve the challenge and upload to your own repository.
 - Create a Pull request by adding a link to your Solution from this page.
 
-### [Challenge-1](challenge-1.md)
+
+## [Challenge-1 Series](challenge-1/README.d)
+* Welcoming solutions to the challenges
+
+#### Challenge-1 Solution Submisisons
 * [Solution](https://github.com/Bharathgopal/May2023/pull/27/files) by [AdityaSrivastava3107](https://github.com/AdityaSrivastava3107) 
 * [Solution](https://github.com/Bharathgopal/May2023/pull/31/files) by [Srilekhas2003-s
 ](https://github.com/Srilekhas2003-s)
@@ -24,9 +28,17 @@ Do you have good programming skills?
 * [Solution](https://github.com/Bharathgopal/May2023/pull/46/files) by [AnkurYadav66](https://github.com/AnkurYadav66)
 * [Solution](https://github.com/Bharathgopal/May2023/pull/47/files) by [AkrishtPrajapati](https://github.com/AkrishtPrajapati)
 
-### [Challenge-2](challenge-2.md)
-* Solution by [Your name] (Link to your solution)
 
-### [Challenge-3](challenge-3/challenge-3.md)
-* Connected project 
-* More related challenges will follow
+## [Challenge-2 Series](challenge-2/README.md)
+* Welcoming solutions to the challenges
+
+#### Challenge-2 Solution Submisisons
+* Welcoming solutions to the challenges
+
+## [Challenge-3 Series](challenge-3/README.md)
+* Solution by [Your name] (Link to your solution)
+* Welcoming Team of 2-5 members to take up the challenges in thsi series
+* [Team name] (Team rep link)
+
+#### Challenge-3 Solution Submisisons
+* Welcoming solutions to the challenges
