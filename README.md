@@ -10,7 +10,7 @@ Do you have good programming skills?
 - Create a Pull request by adding a link to your Solution from this page.
 
 
-## [Challenge-1 Series](challenge-1/README.d)
+## [Challenge-1 Series](challenge-1/README.md)
 * Welcoming solutions to the challenges
 
 #### Challenge-1 Solution Submisisons
