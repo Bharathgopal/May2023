@@ -16,6 +16,8 @@ Do you have good programming skills?
 * Solution by [Amit Sonkusale](https://github.com/AmitSonkusale/Challenges/blob/main/challenge2.c) for Challenge-2
 * Solution by [Jagannath-Nayak](https/github.com/JagannathNayak111/Challenge-23)
 * Solution by [Aditya Patil](https://github.com/adii-0106/challenge-1soln-by-aditya-patil/blob/main/challenge_2.c)
+* Solution by [santhosh kumar N](https://github.com/useramn/ltts/blob/main/challenge1solution) for Challeng-1
+* Solution by [Santhosh Kumar N](https://github.com/useramn/ltts/blob/main/challenge%202-solution) for Challeng-2
 
 ## [Challenge-1 Series](challenge-1/README.md)
 * Welcoming solutions to the challenges
