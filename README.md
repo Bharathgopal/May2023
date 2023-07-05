@@ -39,6 +39,7 @@ Do you have good programming skills?
 * [Solution](https://github.com/Bharathgopal/May2023/pull/44/files) by [varalakshmi2001](https://github.com/varalakshmi2001)
 * [Solution](https://github.com/Bharathgopal/May2023/pull/46/files) by [AnkurYadav66](https://github.com/AnkurYadav66)
 * [Solution](https://github.com/Bharathgopal/May2023/pull/47/files) by [AkrishtPrajapati](https://github.com/AkrishtPrajapati)
+* [Solution](https://github.com/Bharathgopal/May2023/pull/48/files) by [Adithyahollak](https://github.com/AdithyaHollak/SolutionChallange1.git)
 
 
 ## [Challenge-2 Series](challenge-2/README.md)
