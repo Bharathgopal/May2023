@@ -15,5 +15,11 @@ typedef struct data_packet_t{
 }data_packet_t;
 
 ```
-# FAQ's
-* Links to Discussions
+# Challenge-1a
+* Write a function that takes data_packet as argument
+* The function must count and return the number of data indexes filled with 0's.
+
+# Challenge-1b
+* Write a function that takes data_packet as argument
+* The function must count and return the number of data indexes filled with 1's.
+
