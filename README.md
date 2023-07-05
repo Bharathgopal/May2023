@@ -14,7 +14,8 @@ Do you have good programming skills?
 * Solution by [Barkavi](https://github.com/Barkavi-38/challenge-1/blob/main/data%20packet)
 * Solution by [Amit Sonkusale](https://github.com/AmitSonkusale/Challenges/blob/main/challenge1.c) for Challeng-1
 * Solution by [Amit Sonkusale](https://github.com/AmitSonkusale/Challenges/blob/main/challenge2.c) for Challenge-2
-* 
+* Solution by [Jagannath-Nayak](https/github.com/JagannathNayak111/Challenge-23)
+
 ## [Challenge-1 Series](challenge-1/README.md)
 * Welcoming solutions to the challenges
 
