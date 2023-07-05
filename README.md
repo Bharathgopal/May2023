@@ -11,6 +11,7 @@ Do you have good programming skills?
 
 ### Successfull Pull Requests
 * Solution by [Sandhya Sri Parasa](https://github.com/100-2/challenges/blob/main/challenge-1)
+* Solution by [Barkavi](https://github.com/Barkavi-38/challenge-1/blob/main/data%20packet)
 
 
 ## [Challenge-1 Series](challenge-1/README.md)
@@ -45,3 +46,4 @@ Do you have good programming skills?
 
 #### Challenge-3 Solution Submisisons
 * Welcoming solutions to the challenges
+
