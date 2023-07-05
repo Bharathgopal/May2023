@@ -12,12 +12,14 @@ Do you have good programming skills?
 ### Successfull Pull Requests
 * Solution by [Sandhya Sri Parasa](https://github.com/100-2/challenges/blob/main/challenge-1)
 * Solution by [Barkavi](https://github.com/Barkavi-38/challenge-1/blob/main/data%20packet)
-* Solution by [Amit Sonkusale](https://github.com/AmitSonkusale/Challenges/blob/main/challenge1.c) for Challeng-1
+* Solution by [Amit Sonkusale](https://github.com/AmitSonkusale/Challenges/blob/main/challenge1.c) for Challenge-1
 * Solution by [Amit Sonkusale](https://github.com/AmitSonkusale/Challenges/blob/main/challenge2.c) for Challenge-2
 * Solution by [Jagannath-Nayak](https/github.com/JagannathNayak111/Challenge-23)
 * Solution by [Aditya Patil](https://github.com/adii-0106/challenge-1soln-by-aditya-patil/blob/main/challenge_2.c)
-* Solution by [santhosh kumar N](https://github.com/useramn/ltts/blob/main/challenge1solution) for Challeng-1
-* Solution by [Santhosh Kumar N](https://github.com/useramn/ltts/blob/main/challenge%202-solution) for Challeng-2
+* Solution by [santhosh kumar N](https://github.com/useramn/ltts/blob/main/challenge1solution) for Challenge-1
+* Solution by [Santhosh Kumar N](https://github.com/useramn/ltts/blob/main/challenge%202-solution) for Challenge-2
+* Solution by [Krishna Kumar C](https://github.com/Krishna-0713/Krishna_Challenge-1/blob/main/Challenge-1%20Solution) for challenge-1
+* Solution by [Krishna Kumar C](https://github.com/Krishna-0713/Krishna_Challenge-1/blob/main/Challenge-2%20Solution) for Challenge-2
 
 ## [Challenge-1 Series](challenge-1/README.md)
 * Welcoming solutions to the challenges
