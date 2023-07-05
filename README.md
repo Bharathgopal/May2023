@@ -20,7 +20,8 @@ Do you have good programming skills?
 * Solution by [Santhosh Kumar N](https://github.com/useramn/ltts/blob/main/challenge%202-solution) for Challenge-2
 * Solution by [Krishna Kumar C](https://github.com/Krishna-0713/Krishna_Challenge-1/blob/main/Challenge-1%20Solution) for challenge-1
 * Solution by [Krishna Kumar C](https://github.com/Krishna-0713/Krishna_Challenge-1/blob/main/Challenge-2%20Solution) for Challenge-2
-
+* Solution by [Ashutosh Tripathy](https://github.com/GipSy65/MyNew)
+* 
 ## [Challenge-1 Series](challenge-1/README.md)
 * Welcoming solutions to the challenges
 
