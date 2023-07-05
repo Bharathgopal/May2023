@@ -9,6 +9,9 @@ Do you have good programming skills?
 - Solve the challenge and upload to your own repository.
 - Create a Pull request by adding a link to your Solution from this page.
 
+### Successfull Pull Requests
+* Solution by [Sandhya Sri Parasa] (https://github.com/100-2/challenges/blob/main/challenge-1)
+
 
 ## [Challenge-1 Series](challenge-1/README.md)
 * Welcoming solutions to the challenges
