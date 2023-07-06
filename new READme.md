@@ -1,0 +1,2 @@
+Solution by [Saurabh Chaudhary](https://github.com/saurabhcr007/CProject/blob/main/challenge-Solution-1.c) for Challenge-1
+Solution by [Saurabh Chaudhary](https://github.com/saurabhcr007/CProject/blob/main/challenge-Solution-2.c) for Challenge-2
