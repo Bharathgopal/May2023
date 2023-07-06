@@ -46,6 +46,7 @@ Do you have good programming skills?
 * Solution by [Sahil Sah](https://github.com/sahi-dev/c-program/blob/master/Challenge-2.c) for Challenge-2
 * Solution by [Mohamed Thilwan J](https://github.com/MOHAMEDTHILWAN/data-packet-corruption-detection.git) for Challenge-1
 * Solution by [Mohamed Thilwan J](https://github.com/MOHAMEDTHILWAN/data-sting-to-structure-conversion.git) for Challenge-2
+* Solution by [Anjaneyulu](https://github.com/AnjaneyuluDevarasetty/Learning_2023/blob/main/Challenge2.c)
 * Solution by [ADITHYA HOLLA K](https://github.com/AdithyaHollak/challange1/blob/main/solution1.c) for Challenge-1
 * Solution by [ADITHYA HOLLA K](https://github.com/AdithyaHollak/Challangesolution2/blob/main/Solution2.c) for Challenge-2
 
@@ -79,4 +80,5 @@ Do you have good programming skills?
 
 #### Challenge-3 Solution Submisisons
 * Welcoming solutions to the challenges
+
 
