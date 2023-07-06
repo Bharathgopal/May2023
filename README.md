@@ -31,8 +31,8 @@ Do you have good programming skills?
 * Solution by [Raunak](https://github.com/raunak541/may2023-a.git)
 * Solution by [Murali M G](https://github.com/Murali008/MyRepo/blob/main/challenge1.c) for Challenge-1
 * Solution by [Murali M G](https://github.com/Murali008/MyRepo/blob/main/challenge%202.c) for Challenge-2
-* Solution by [KarthikBhaskaran22]([https://github.com/KarthikBhaskaran22/C_Projects/blob/main/Challenge1_Solution.c]) for Challenge-1
-* Solution by [KarthikBhaskaran22]([https://github.com/KarthikBhaskaran22/C_Projects/blob/main/Challenge2_Solution.c]) for Challenge-2
+* Solution by [KarthikBhaskaran22](https://github.com/KarthikBhaskaran22/C_Projects/blob/main/Challenge1_Solution.c) for Challenge-1
+* Solution by [KarthikBhaskaran22](https://github.com/KarthikBhaskaran22/C_Projects/blob/main/Challenge2_Solution.c) for Challenge-2
 * Solution by [Gautam Prasad Das](https://github.com/GautamPrasadDas/May2023/blob/main/Challenge2.c)
 * Solution by [Muddinedi Vijayadurga](https://github.com/vijju30/Httpsremoterepo/commit/dae3d149d9864b61ba94c6e0ad910f767577436a)
 * Solution by [S Ganesh](https://github.com/SGanesh143/Challenge-1/blob/main/Challenge-1-Solution.c) for Challenge-1
@@ -41,6 +41,7 @@ Do you have good programming skills?
 * Solution by [Varun Tandel](https://github.com/varunx11/challenge2soln)
 * Solution by [Pratiksha Dash](https://github.com/RPratiksha/c-programme/blob/master/challenge%201.c)
 * Solution by [GRANDHI-JYOTHIRMAYEE](https/github.com/Jyothirmayee-star/Challenge-2.git)
+* Solution by [Naveena Vajrala](https://github.com/NaveenaVajrala/programming_repo/blob/main/challenge%202.c)
 
 ## [Challenge-1 Series](challenge-1/README.md)
 * Welcoming solutions to the challenges
@@ -72,3 +73,4 @@ Do you have good programming skills?
 
 #### Challenge-3 Solution Submisisons
 * Welcoming solutions to the challenges
+
