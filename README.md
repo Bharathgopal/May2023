@@ -33,7 +33,8 @@ Do you have good programming skills?
 * Solution by [Murali M G](https://github.com/Murali008/MyRepo/blob/main/challenge%202.c) for Challenge-2
 * Solution by [KarthikBhaskaran22]([https://github.com/KarthikBhaskaran22/C_Projects/blob/main/Challenge1_Solution.c]) for Challenge-1
 * Solution by [KarthikBhaskaran22]([https://github.com/KarthikBhaskaran22/C_Projects/blob/main/Challenge2_Solution.c]) for Challenge-2
-
+* Solution by [Gautam Prasad Das](https://github.com/GautamPrasadDas/May2023/blob/main/Challenge2.c)
+* 
 ## [Challenge-1 Series](challenge-1/README.md)
 * Welcoming solutions to the challenges
 
@@ -50,7 +51,6 @@ Do you have good programming skills?
 * [Solution](https://github.com/Bharathgopal/May2023/pull/44/files) by [varalakshmi2001](https://github.com/varalakshmi2001)
 * [Solution](https://github.com/Bharathgopal/May2023/pull/46/files) by [AnkurYadav66](https://github.com/AnkurYadav66)
 * [Solution](https://github.com/Bharathgopal/May2023/pull/47/files) by [AkrishtPrajapati](https://github.com/AkrishtPrajapati)
-
 
 ## [Challenge-2 Series](challenge-2/README.md)
 * Welcoming solutions to the challenges
