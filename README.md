@@ -8,7 +8,7 @@ Do you have good programming skills?
 - If yes, then showcase through the solutions to these challnegs.
 - Solve the challenge and upload to your own repository.
 - Create a Pull request by adding a link to your Solution from this page.
-
+ 
 ### Successfull Pull Requests
 * Solution by [Sandhya Sri Parasa](https://github.com/100-2/challenges/blob/main/challenge-1)
 * Solution by [Barkavi](https://github.com/Barkavi-38/challenge-1/blob/main/data%20packet)
@@ -47,6 +47,8 @@ Do you have good programming skills?
 * Solution by [Mohamed Thilwan J](https://github.com/MOHAMEDTHILWAN/data-packet-corruption-detection.git) for Challenge-1
 * Solution by [Mohamed Thilwan J](https://github.com/MOHAMEDTHILWAN/data-sting-to-structure-conversion.git) for Challenge-2
 * Solution by [Anjaneyulu](https://github.com/AnjaneyuluDevarasetty/Learning_2023/blob/main/Challenge2.c)
+* Solution by [ADITHYA HOLLA K](https://github.com/AdithyaHollak/challange1/blob/main/solution1.c) for Challenge-1
+* Solution by [ADITHYA HOLLA K](https://github.com/AdithyaHollak/Challangesolution2/blob/main/Solution2.c) for Challenge-2
 
 ## [Challenge-1 Series](challenge-1/README.md)
 * Welcoming solutions to the challenges
