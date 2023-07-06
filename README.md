@@ -31,14 +31,15 @@ Do you have good programming skills?
 * Solution by [Raunak](https://github.com/raunak541/may2023-a.git)
 * Solution by [Murali M G](https://github.com/Murali008/MyRepo/blob/main/challenge1.c) for Challenge-1
 * Solution by [Murali M G](https://github.com/Murali008/MyRepo/blob/main/challenge%202.c) for Challenge-2
+* Solution by [KarthikBhaskaran22]([https://github.com/KarthikBhaskaran22/C_Projects/blob/main/Challenge1_Solution.c]) for Challenge-1
+* Solution by [KarthikBhaskaran22]([https://github.com/KarthikBhaskaran22/C_Projects/blob/main/Challenge2_Solution.c]) for Challenge-2
 
 ## [Challenge-1 Series](challenge-1/README.md)
 * Welcoming solutions to the challenges
 
 #### Challenge-1 Solution Submisisons
 * [Solution](https://github.com/Bharathgopal/May2023/pull/27/files) by [AdityaSrivastava3107](https://github.com/AdityaSrivastava3107) 
-* [Solution](https://github.com/Bharathgopal/May2023/pull/31/files) by [Srilekhas2003-s
-](https://github.com/Srilekhas2003-s)
+* [Solution](https://github.com/Bharathgopal/May2023/pull/31/files) by [Srilekhas2003-s](https://github.com/Srilekhas2003-s)
 * [Solution](https://github.com/Bharathgopal/May2023/pull/32/files) by [saikrishna98494](https://github.com/saikrishna98494)
 * [Solution](https://github.com/Bharathgopal/May2023/pull/33/files) by [karthik10044](https://github.com/karthik10044)
 * [Solution](https://github.com/Bharathgopal/May2023/pull/35/files) by [Manideep033](https://github.com/Manideep033)
@@ -64,4 +65,3 @@ Do you have good programming skills?
 
 #### Challenge-3 Solution Submisisons
 * Welcoming solutions to the challenges
-
