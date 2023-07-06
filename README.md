@@ -49,6 +49,8 @@ Do you have good programming skills?
 * Solution by [Anjaneyulu](https://github.com/AnjaneyuluDevarasetty/Learning_2023/blob/main/Challenge2.c)
 * Solution by [ADITHYA HOLLA K](https://github.com/AdithyaHollak/challange1/blob/main/solution1.c) for Challenge-1
 * Solution by [ADITHYA HOLLA K](https://github.com/AdithyaHollak/Challangesolution2/blob/main/Solution2.c) for Challenge-2
+* Solution by [Jaganathan S](https://github.com/jagan24317/May2023/blob/main/challenge-1.md) for Challenge-1
+* Solution by [Jaganathan S](https://github.com/jagan24317/May2023/blob/main/challenge-2.md) for Challenge-2
 
 ## [Challenge-1 Series](challenge-1/README.md)
 * Welcoming solutions to the challenges
@@ -80,5 +82,4 @@ Do you have good programming skills?
 
 #### Challenge-3 Solution Submisisons
 * Welcoming solutions to the challenges
-
 
