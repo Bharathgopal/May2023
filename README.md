@@ -29,6 +29,8 @@ Do you have good programming skills?
 * Solution by [Molleti Sri Suvadya](https://github.com/Suvadya/Challenges-Solution/blob/main/Challeng-1%20Solution.c) for Challenge-1
 * Solution by [Molleti Sri Suvadya](https://github.com/Suvadya/Challenges-Solution/blob/main/Challeng-1%20Solution.c) for Challenge-2
 * Solution by [Raunak](https://github.com/raunak541/may2023-a.git)
+* Solution by [Murali M G](https://github.com/Murali008/MyRepo/blob/main/challenge1.c) for Challenge-1
+* Solution by [Murali M G](https://github.com/Murali008/MyRepo/blob/main/challenge%202.c) for Challenge-2
 
 ## [Challenge-1 Series](challenge-1/README.md)
 * Welcoming solutions to the challenges
