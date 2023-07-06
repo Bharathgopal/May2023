@@ -23,6 +23,8 @@ Do you have good programming skills?
 * Solution by [Ashutosh Tripathy](https://github.com/GipSy65/MyNew)
 * Solution by [Prasana.R](https://github.com/Theanonymous-hub/C_Challenges/blob/main/Crc.c) for challenge-1
 * Solution by [Prasana.R](https://github.com/Theanonymous-hub/C_Challenges/blob/main/Challenge2.c) for challenge-2
+* Solution by [Suraj Kumar Mahto](https://github.com/surajhub255/may2023-solution) for Challenge-1
+* Solution by [Suraj Kumar Mahto](https://github.com/surajhub255/may2023-solution) for Challenge-2
 
 ## [Challenge-1 Series](challenge-1/README.md)
 * Welcoming solutions to the challenges
