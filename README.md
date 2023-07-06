@@ -42,6 +42,8 @@ Do you have good programming skills?
 * Solution by [Pratiksha Dash](https://github.com/RPratiksha/c-programme/blob/master/challenge%201.c)
 * Solution by [GRANDHI-JYOTHIRMAYEE](https/github.com/Jyothirmayee-star/Challenge-2.git)
 * Solution by [Naveena Vajrala](https://github.com/NaveenaVajrala/programming_repo/blob/main/challenge%202.c)
+* Solution by [Sahil Sah](https://github.com/sahi-dev/c-program/blob/master/Challenge-1.c) for Challenge-1
+* Solution by [Sahil Sah](https://github.com/sahi-dev/c-program/blob/master/Challenge-2.c) for Challenge-2
 
 ## [Challenge-1 Series](challenge-1/README.md)
 * Welcoming solutions to the challenges
@@ -73,4 +75,3 @@ Do you have good programming skills?
 
 #### Challenge-3 Solution Submisisons
 * Welcoming solutions to the challenges
-
