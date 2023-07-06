@@ -40,6 +40,7 @@ Do you have good programming skills?
 * Solution by [Venu-Gopal](https/github.com/VenuGopal2526/Cpractice/blob/main/Challenge2.c)
 * Solution by [Varun Tandel](https://github.com/varunx11/challenge2soln)
 * Solution by [Pratiksha Dash](https://github.com/RPratiksha/c-programme/blob/master/challenge%201.c)
+* Solution by [GRANDHI-JYOTHIRMAYEE](https/github.com/Jyothirmayee-star/Challenge-2.git)
 
 ## [Challenge-1 Series](challenge-1/README.md)
 * Welcoming solutions to the challenges
@@ -71,4 +72,3 @@ Do you have good programming skills?
 
 #### Challenge-3 Solution Submisisons
 * Welcoming solutions to the challenges
-
