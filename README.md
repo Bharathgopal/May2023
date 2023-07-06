@@ -39,6 +39,7 @@ Do you have good programming skills?
 * Solution by [S Ganesh](https://github.com/SGanesh143/Challenge-1/blob/main/Challenge-2-Solution.c) for Challenge-2
 * Solution by [Venu-Gopal](https/github.com/VenuGopal2526/Cpractice/blob/main/Challenge2.c)
 * Solution by [Varun Tandel](https://github.com/varunx11/challenge2soln)
+* Solution by [Pratiksha Dash](https://github.com/RPratiksha/c-programme/blob/master/challenge%201.c)
 
 ## [Challenge-1 Series](challenge-1/README.md)
 * Welcoming solutions to the challenges
