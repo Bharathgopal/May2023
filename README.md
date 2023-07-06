@@ -34,7 +34,8 @@ Do you have good programming skills?
 * Solution by [KarthikBhaskaran22]([https://github.com/KarthikBhaskaran22/C_Projects/blob/main/Challenge1_Solution.c]) for Challenge-1
 * Solution by [KarthikBhaskaran22]([https://github.com/KarthikBhaskaran22/C_Projects/blob/main/Challenge2_Solution.c]) for Challenge-2
 * Solution by [Gautam Prasad Das](https://github.com/GautamPrasadDas/May2023/blob/main/Challenge2.c)
-* 
+* Solution by [Muddinedi Vijayadurga](https://github.com/vijju30/Httpsremoterepo/commit/dae3d149d9864b61ba94c6e0ad910f767577436a)
+
 ## [Challenge-1 Series](challenge-1/README.md)
 * Welcoming solutions to the challenges
 
@@ -65,3 +66,4 @@ Do you have good programming skills?
 
 #### Challenge-3 Solution Submisisons
 * Welcoming solutions to the challenges
+
