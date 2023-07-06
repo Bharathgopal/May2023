@@ -40,3 +40,6 @@ typedef enum status_t
  */
 status_t string_to_date_converter(char* input_string, my_date_t* result_date);
 ```
+
+#### Challenge-2a
+* Write a function that gets the date, month and year from the Computer OS and updates tot the my_date_t variable passed by user
