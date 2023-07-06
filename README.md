@@ -25,6 +25,9 @@ Do you have good programming skills?
 * Solution by [Prasana.R](https://github.com/Theanonymous-hub/C_Challenges/blob/main/Challenge2.c) for challenge-2
 * Solution by [Suraj Kumar Mahto](https://github.com/surajhub255/may2023-solution) for Challenge-1
 * Solution by [Suraj Kumar Mahto](https://github.com/surajhub255/may2023-solution) for Challenge-2
+* Solution by [KAVINMUTHU](https/github.com/KAVINMUTHU/Solved-Challenges-/blob/main/Solution%20by%20KAVIN%20Challange%20%201)
+
+
 
 ## [Challenge-1 Series](challenge-1/README.md)
 * Welcoming solutions to the challenges
@@ -58,3 +61,4 @@ Do you have good programming skills?
 
 #### Challenge-3 Solution Submisisons
 * Welcoming solutions to the challenges
+
