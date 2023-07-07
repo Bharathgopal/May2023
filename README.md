@@ -53,7 +53,8 @@ Do you have good programming skills?
 * Solution by [Jaganathan S](https://github.com/jagan24317/May2023/blob/main/challenge-2.md) for Challenge-2
 * Solution by [SANJAY KUMAR M R](https://github.com/lethaldude10071/Detection-of-Data-packet-corruption) for Challenge-1
 * Solution by [SANJAY KUMAR M R](https://github.com/lethaldude10071/Date-in-String-to-Structure-conversion) for Challenge-2
-
+* Solution by [Divyanshi Tripathi](https://github.com/divyanshigit/Programming_Challenge-Solution/blob/main/challenge-1%20Data%20Packet%20Corruption%20Detection.c) for Challenge-1
+* Solution by [Divyanshi Tripathi](https://github.com/divyanshigit/Programming_Challenge-Solution/blob/main/challenge-2%20Date%20String%20to%20Structure%20conversion.c) for Challenge-2
 ## [Challenge-1 Series](challenge-1/README.md)
 * Welcoming solutions to the challenges
 
@@ -70,13 +71,13 @@ Do you have good programming skills?
 * [Solution](https://github.com/Bharathgopal/May2023/pull/44/files) by [varalakshmi2001](https://github.com/varalakshmi2001)
 * [Solution](https://github.com/Bharathgopal/May2023/pull/46/files) by [AnkurYadav66](https://github.com/AnkurYadav66)
 * [Solution](https://github.com/Bharathgopal/May2023/pull/47/files) by [AkrishtPrajapati](https://github.com/AkrishtPrajapati)
-
+* [Solution](https://github.com/Bharathgopal/May2023/pull/47/files) by [divyanshigit](https://github.com/divyanshigit)
 ## [Challenge-2 Series](challenge-2/README.md)
 * Welcoming solutions to the challenges
 
 #### Challenge-2 Solution Submisisons
 * Welcoming solutions to the challenges
-
+* [Solution](https://github.com/Bharathgopal/May2023/pull/47/files) by [divyanshigit](https://github.com/divyanshigit)
 ## [Challenge-3 Series](challenge-3/README.md)
 * Solution by [Your name] (Link to your solution)
 * Welcoming Team of 2-5 members to take up the challenges in thsi series
