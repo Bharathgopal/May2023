@@ -146,8 +146,7 @@ Do you have good programming skills?
             <br />
             <sub><b>Null</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/AnjaneyuluDevarasetty">
             <img src="https://avatars.githubusercontent.com/u/114748700?v=4" width="100;" alt="AnjaneyuluDevarasetty"/>
@@ -175,7 +174,8 @@ Do you have good programming skills?
             <br />
             <sub><b>Karthik Bhaskaran</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/varunx11">
             <img src="https://avatars.githubusercontent.com/u/134200147?v=4" width="100;" alt="varunx11"/>
@@ -189,8 +189,7 @@ Do you have good programming skills?
             <br />
             <sub><b>ASHUTOSH TRIPATHY</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/AmitSonkusale">
             <img src="https://avatars.githubusercontent.com/u/133979284?v=4" width="100;" alt="AmitSonkusale"/>
@@ -232,8 +231,7 @@ Do you have good programming skills?
             <br />
             <sub><b>Null</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/sahi-dev">
             <img src="https://avatars.githubusercontent.com/u/70245981?v=4" width="100;" alt="sahi-dev"/>
@@ -247,7 +245,8 @@ Do you have good programming skills?
             <br />
             <sub><b>Null</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/vijju30">
             <img src="https://avatars.githubusercontent.com/u/78401750?v=4" width="100;" alt="vijju30"/>
@@ -275,8 +274,7 @@ Do you have good programming skills?
             <br />
             <sub><b>Null</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/KAVINMUTHU">
             <img src="https://avatars.githubusercontent.com/u/134076743?v=4" width="100;" alt="KAVINMUTHU"/>
