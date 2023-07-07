@@ -67,8 +67,8 @@ Do you have good programming skills?
 * Solution by [Divyanshi Tripathi](https://github.com/divyanshigit/Programming_Challenge-Solution/blob/main/challenge-2%20Date%20String%20to%20Structure%20conversion.c) for Challenge-2
 * Solution by [Saurabh Chaudhary](https://github.com/saurabhcr007/CProject/blob/main/challenge-Solution-1.c) for Challenge-1
 * Solution by [Saurabh Chaudhary](https://github.com/saurabhcr007/CProject/blob/main/challenge-Solution-2.c) for Challenge-2
-
-
+* Solution by [Shivam Kumar](https://github.com/shivamskr151/Programming_Challenge/blob/main/challenge-1%20Data%20Packet%20Corruption%20Detection.c) for Challenge-1
+* Solution by [Shivam Kumar](https://github.com/shivamskr151/Programming_Challenge/blob/main/challenge-2%20Date%20String%20to%20Structure%20conversion.c) for Challenge-2
 ## [Challenge-1 Series](challenge-1/README.md)
 * Welcoming solutions to the challenges
 
@@ -86,12 +86,14 @@ Do you have good programming skills?
 * [Solution](https://github.com/Bharathgopal/May2023/pull/46/files) by [AnkurYadav66](https://github.com/AnkurYadav66)
 * [Solution](https://github.com/Bharathgopal/May2023/pull/47/files) by [AkrishtPrajapati](https://github.com/AkrishtPrajapati)
 * [Solution](https://github.com/Bharathgopal/May2023/pull/47/files) by [divyanshigit](https://github.com/divyanshigit)
+* [Solution](https://github.com/Bharathgopal/May2023/pull/47/files) by [shivamskr151](https://github.com/shivamskr151)
 ## [Challenge-2 Series](challenge-2/README.md)
 * Welcoming solutions to the challenges
 
 #### Challenge-2 Solution Submisisons
 * Welcoming solutions to the challenges
 * [Solution](https://github.com/Bharathgopal/May2023/pull/47/files) by [divyanshigit](https://github.com/divyanshigit)
+* [Solution](https://github.com/Bharathgopal/May2023/pull/47/files) by [shivamskr151](https://github.com/shivamskr151)
 ## [Challenge-3 Series](challenge-3/README.md)
 * Solution by [Your name] (Link to your solution)
 * Welcoming Team of 2-5 members to take up the challenges in thsi series
