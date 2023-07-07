@@ -1,3 +1,13 @@
+# Badges
+
+![GitHub contributors](https://img.shields.io/github/contributors/bharathgopal/may2023)
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/bharathgopal/may2023)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/bharathgopal/may2023)
+![GitHub Discussions](https://img.shields.io/github/discussions/bharathgopal/may2023)
+![GitHub issues](https://img.shields.io/github/issues/bharathgopal/may2023)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/Bharathgopal/may2023)
+
+
 # Learning Resources
 * [Learn C Programming](C-Resources.md)
 * [Learn Linux Commands](Linux-Resources.md)
