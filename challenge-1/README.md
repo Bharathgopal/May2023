@@ -16,7 +16,8 @@ typedef struct data_packet_t{
 
 ```
 # Challenge-1a
-Solution by SHIVAM KUMAR (https://github.com/shivamskr151/Programming_Challenge/blob/main/challenge-1%20Data%20Packet%20Corruption%20Detection.c)
+* Write a function that takes data_packet as argument.
+* The function must count and return the number of data indexes filled with 0's.
 
 # Challenge-1b
 * Write a function that takes data_packet as argument
