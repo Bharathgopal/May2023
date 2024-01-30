@@ -86,12 +86,14 @@ Do you have good programming skills?
 * [Solution](https://github.com/Bharathgopal/May2023/pull/46/files) by [AnkurYadav66](https://github.com/AnkurYadav66)
 * [Solution](https://github.com/Bharathgopal/May2023/pull/47/files) by [AkrishtPrajapati](https://github.com/AkrishtPrajapati)
 * [Solution](https://github.com/Bharathgopal/May2023/pull/47/files) by [divyanshigit](https://github.com/divyanshigit)
+* [Solution](https://github.com/Suhas-2112/Challenge_Solutions/blob/main/Challenge1_sol.c) by [Suhas Omkar](https://github.com/Suhas-2112)
 ## [Challenge-2 Series](challenge-2/README.md)
 * Welcoming solutions to the challenges
 
 #### Challenge-2 Solution Submisisons
 * Welcoming solutions to the challenges
 * [Solution](https://github.com/Bharathgopal/May2023/pull/47/files) by [divyanshigit](https://github.com/divyanshigit)
+* [Solution](https://github.com/Suhas-2112/Challenge_Solutions/blob/main/Challenge2_sol.c) by [Suhas Omkar](https://github.com/Suhas-2112)
 ## [Challenge-3 Series](challenge-3/README.md)
 * Solution by [Your name] (Link to your solution)
 * Welcoming Team of 2-5 members to take up the challenges in thsi series
