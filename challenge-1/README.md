@@ -23,3 +23,4 @@ typedef struct data_packet_t{
 * Write a function that takes data_packet as argument
 * The function must count and return the number of data indexes filled with 1's.
 
+Solution by [Manideep Pulluri](https://github.com/Manideep033/Challenges.git)
